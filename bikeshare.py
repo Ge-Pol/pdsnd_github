@@ -233,6 +233,7 @@ def raw_data(df):
         if show_more == 'no':
             break
         elif show_more == 'yes':
+            pd.set_option('display.max_columns',200)
             print(df[start_index: start_index + 5])
             start_index += 5
             if start_index > len(df.index):
