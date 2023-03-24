@@ -42,5 +42,5 @@ _Note:_
 Make sure to perform some data wrangling before you start exploring. :wink:
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+To write this code, the official [Python documentation](https://docs.python.org/3/index.html), the [NumPy user guide](https://numpy.org/devdocs/user/index.html), and the [Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/) were used.
 
