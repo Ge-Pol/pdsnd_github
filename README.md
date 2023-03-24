@@ -33,7 +33,13 @@ The script takes in user's **raw input** to create an interactive experience in 
 * a terminal application (Terminal on Mac and Linux or Git Bash on Windows)
 
 ### Files used
-Include the files used
+You need one .csv file per city containing the corresponding bikeshare data. You can download the files from these websites:
+* [Chicago](https://divvybikes.com/system-data)
+* [New York City](https://citibikenyc.com/system-data)
+* [Washington](https://capitalbikeshare.com/system-data)
+
+_Note:_
+Make sure to perform some data wrangling before you start exploring. :wink:
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
