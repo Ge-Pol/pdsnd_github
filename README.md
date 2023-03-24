@@ -26,6 +26,12 @@ The script takes in user's **raw input** to create an interactive experience in 
 * counts of each gender (only available for NYC and Chicago)
 * earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
+### Installation
+**Explore US Bikeshare Data with Python** requires the following to run:
+* (at least) Python 3, NumPy, and pandas (you can use [Anaconda](https://www.anaconda.com/) to install this)
+* a text editor, like Sublime or Visual Studio Code.
+* a terminal application (Terminal on Mac and Linux or Git Bash on Windows)
+
 ### Files used
 Include the files used
 
