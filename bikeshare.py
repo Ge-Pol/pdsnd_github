@@ -166,7 +166,7 @@ def trip_duration_stats(df):
 
     # TO DO: display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print('The mean travel time in seconds is:', mean_travel_time)
+    print('The mean travel time in seconds is:', round(mean_travel_time, ndigits=1))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -198,13 +198,13 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
         min_year = df['Birth Year'].min()
-        print('This is the earliest year of birth:', min_year)
+        print('This is the earliest year of birth:', int(min_year))
 
         max_year = df['Birth Year'].max()
-        print('This is the most recent year of birth:', max_year)
+        print('This is the most recent year of birth:', int(max_year))
 
         mode_year = df['Birth Year'].mode()[0]
-        print('This is the most common year of birth:', mode_year)
+        print('This is the most common year of birth:', int(mode_year))
 
     except:
         print('No data exists on the birth year of users in Washington.')
@@ -233,6 +233,7 @@ def raw_data(df):
         if show_more == 'no':
             break
         elif show_more == 'yes':
+            pd.set_option('display.max_columns',200)
             print(df[start_index: start_index + 5])
             start_index += 5
             if start_index > len(df.index):
